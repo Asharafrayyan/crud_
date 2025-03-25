@@ -1,0 +1,297 @@
+.navbar {
+    background-color: #ffe5d4;
+    padding: 15px 40px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #ff5733;
+    font-weight: bold;
+  }
+  
+  .btn-outline-danger {
+    border: 2px solid #ff5733;
+    color: #ff5733;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-danger:hover {
+    background-color: #ff5733;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #ff5733;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e64a19;
+  }
+  
+.rightbg{
+  border-radius: 20px;
+  height: 450px;
+  width: 550px;
+}
+.rightbg2{
+  border-radius: 20px;
+  height: 250px;
+  width: 400px;
+  padding:30px;
+}
+
+.rightbg3{
+  border-radius: 20px;
+  height: 450px;
+  width: 400px;
+  margin: 10px;
+}
+.order{
+  color: rgb(212, 31, 31);
+  text-decoration: none;
+}
+
+.feature-section {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box {
+  padding: 20px;
+}
+
+.icon-circle {
+  width: 250px;
+  height: 250px;
+  background: #FFD966;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.icon-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.feature-text {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Categories Section */
+.category-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.category-box {
+  text-align: center;
+  padding: 15px;
+}
+
+.category-img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.category-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.category-order {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  margin-top: 5px;
+}
+
+
+/* fooditems */
+.food-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.food-card {
+  width: 250px;
+  text-align: center;
+  background: #f1aaaa;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 50px;
+}
+
+.image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #ff6f61;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.food-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rating {
+  color: #ffa500;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buy-btn {
+  background: #ff6f61;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buy-btn:hover{
+  background-color: rgb(212, 31, 31);
+}
+.card_body{
+  margin-top: 20px;
+}
+
+/* footer */
+.footer {
+  background-color: #fca6a6;
+  padding: 30px 0;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-weight: bold;
+  color: #ee0303;
+  margin-bottom: 10px;
+}
+
+.follow-title {
+  font-weight: bold;
+  color: #e60202;
+  margin-top: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  text-decoration: none;
+}
+
+/* about */
+.about-section {
+  background-color: #f39f9f;
+  padding: 50px 0;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.about-title {
+  font-weight: bold;
+  color: #d14d4d;
+  margin-bottom: 15px;
+}
+
+.about-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.learn-more-btn {
+  background: #ff6f61;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover{
+  background-color: rgb(212, 31, 31);
+}
+.image-section {
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  height:500px ;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
